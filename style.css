@@ -1,0 +1,113 @@
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.section_1{
+    background-color: wheat;
+}
+.tittle{
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bx-wrapper {
+    margin: 0 auto 50px;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.bx-wrapper .bx-pager {
+    text-align: center;
+    font-size: .45em;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+    padding-top: 20px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: wheat;
+    border: 1px solid #000;
+}
+.op{
+    height: 100px;
+}
+#not{
+    margin-top: 50px;
+    background-image: url(https://www.wowpatterns.com/assets/files/resource_images/cartoon-cute-honey-bee-with-dashed-lines-pattern.jpg);
+    background-position: center;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    height: 450px;
+}
+.bx-wrapper{
+    border-radius: 50px;
+    background-color: wheat;
+    
+}
+.tittle_nap{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    font-family: 'Kanit', sans-serif;
+    color: #000;
+    padding-top: 30px;
+}
+.jan{
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    display: flex;
+    justify-content: right;
+    padding-bottom: 50px;
+}
+.jan:hover, .tittle_nap:hover{
+    color: #fff;
+    cursor: pointer;
+}
+#root{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 700;
+}@media screen and (max-width:1200px){
+    .container{
+        max-width: 1150px;
+    }
+}
+@media screen and (max-width:1090px){
+    .container{
+        max-width: 1040px;
+    }
+}
+@media screen and (max-width:800px){
+    .container{
+        max-width:750px;
+    }
+}
+@media screen and (max-width:550px){
+    .container{
+        max-width: 500px;
+    }
+    #not{
+        height: 500px;
+    }
+}
+@media screen and (max-width:480px){
+    .container{
+        max-width: 430px;
+    }
+    #not{
+        height: 550px;
+    }
+}
+@media screen and (max-width:360px){
+    .container{
+        max-width: 320px;
+    }
+}
